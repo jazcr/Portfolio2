@@ -20,7 +20,7 @@ html, body {
 
 #cards {
     justify-content: center;
-    margin: 10px;
+    margin: 10px
 }
 
 /* .card {
@@ -31,9 +31,8 @@ html, body {
 }
 
 #aboutSection {
-    margin-left: 12px;
-    margin-right: 12px;
-    background-color: #fde3e4;
+    margin: 12px;
+    background: #fde3e4;
     height: 300px;
 }
 
@@ -50,6 +49,23 @@ html, body {
 
 #heart {
     color: #fde3e4;
+}
+
+#contactList {
+    text-align: center;
+}
+
+#contactList ul {
+    list-style-type: none;
+}
+
+#contactList li {
+
+    display: flex;
+    justify-content: center;
+    margin: 5px 20px;
+    padding: 3px 7px;
+
 }
 
 
